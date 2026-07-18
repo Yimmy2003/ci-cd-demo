@@ -4,8 +4,8 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: '¡Hola! Esta es una aplicación desplegada con Jenkins y Docker.',
-    version: process.env.APP_VERSION || '1.0.0',
+    message: '¡Hola! Esta es una aplicación desplegada con Jenkins y Docker. [v2 - Auto-deploy via SCM polling]',
+    version: process.env.APP_VERSION || '2.0.0',
     timestamp: new Date().toISOString()
   });
 });
