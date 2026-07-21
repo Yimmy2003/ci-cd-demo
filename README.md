@@ -69,3 +69,6 @@ git push origin main
 - Verificar permisos de jenkins: `groups jenkins`
 - Ver logs de Jenkins: `journalctl -u jenkins`
 - Ver logs del contenedor: `docker logs ci-cd-demo`
+
+## Integrante
+Ariel — Aporte: etapa de limpieza (Cleanup) de imágenes Docker en el pipeline.
