@@ -38,6 +38,14 @@ pipeline {
                 }
             }
         }
+
+        stage('Cleanup') {
+            steps {
+                script {
+                    sh 'docker image prune -f'
+                }
+            }
+        }
     }
 
     post {
