@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     message: '¡Hola! Esta es una aplicación desplegada con JenkinsSSSS y Docker. [v2 - Auto-deploy via SCM polling]',
     message: '¡Hola! este es un commit de prueba para ver si funciona el auto-deploy via SCM polling',
     message: '¡Prueba de funcionamientoo!',
-    message: '¡Prueba evaluaciónnn!',
+    message: '¡Prueba evaluaciónnn 2!',
     version: process.env.APP_VERSION || '2.0.0',
     timestamp: new Date().toISOString()
   });
