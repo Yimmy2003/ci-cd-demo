@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Pipeline CI/CD funcionando - prueba de flujo con PR 🚀',
+    message: 'Pipeline CI/CD funcionando - push directo a main 🚀 (prueba equipo)',
     version: process.env.APP_VERSION || '2.0.0',
     timestamp: new Date().toISOString()
   });
